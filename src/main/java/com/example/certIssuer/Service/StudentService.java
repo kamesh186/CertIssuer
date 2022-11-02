@@ -14,7 +14,8 @@ public class StudentService implements StudentInterface {
 	
 	public void createProfile(Student student)
 	{
-		studentRepository.save(student);
+		studentRepository.save(student);//done
+		
 	}
 
 }
